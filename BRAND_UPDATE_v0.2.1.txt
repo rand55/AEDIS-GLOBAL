@@ -1,0 +1,11 @@
+AEDIS Global Integrated v0.2.1 — visual refinement
+
+Changes:
+- Replaced the temporary A badge with the approved open-globe AEDIS Global logo.
+- Added gold wordmark, green continents, and gold inter-country network lines.
+- Reduced oversized homepage, interior-page, section, and sign-in headings.
+- Changed primary text to #F5F5F5.
+- Added a softer body-text hierarchy using #D5D9DD and #9DA6AF.
+- Added the globe as the browser/site icon.
+
+No database migrations or changes to stored local demonstration data are required.

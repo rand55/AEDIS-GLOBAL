@@ -1,0 +1,113 @@
+name: aedis-global-integrated
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: aedis
+      POSTGRES_USER: aedis
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_INITDB_ARGS: "--auth-host=scram-sha-256"
+    command: ["postgres", "-c", "password_encryption=scram-sha-256", "-c", "log_connections=on"]
+    volumes:
+      - aedis_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aedis -d aedis"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    networks: [aedis_private]
+
+  redis:
+    image: redis:7.4-alpine
+    restart: unless-stopped
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
+    command:
+      - sh
+      - -c
+      - exec redis-server --appendonly yes --requirepass "$$REDIS_PASSWORD"
+    volumes:
+      - aedis_redis:/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - redis-cli -a "$$REDIS_PASSWORD" ping | grep PONG
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    networks: [aedis_private]
+
+  backend:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    environment:
+      AEDIS_ENV: local
+      DATABASE_URL: postgresql+psycopg://aedis:${POSTGRES_PASSWORD}@postgres:5432/aedis
+      REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379/0
+      FLASK_SECRET_KEY: ${FLASK_SECRET_KEY}
+      AUDIT_HMAC_KEY: ${AUDIT_HMAC_KEY}
+      BFF_SHARED_SECRET: ${BFF_SHARED_SECRET}
+      DEMO_ADMIN_PASSWORD: ${DEMO_ADMIN_PASSWORD}
+      DEMO_REVIEWER_PASSWORD: ${DEMO_REVIEWER_PASSWORD}
+      DEMO_USER_PASSWORD: ${DEMO_USER_PASSWORD}
+      LOCAL_SECURE_COOKIES: "false"
+      QUARANTINE_DIR: /data/quarantine
+      GUNICORN_WORKERS: "2"
+      GUNICORN_THREADS: "4"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - aedis_quarantine:/data/quarantine
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health/ready', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+    networks: [aedis_private]
+
+  frontend:
+    build:
+      context: ./frontend
+    restart: unless-stopped
+    environment:
+      AEDIS_BACKEND_URL: http://backend:8000
+      BFF_SHARED_SECRET: ${BFF_SHARED_SECRET}
+      NODE_ENV: production
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+    networks: [aedis_private]
+
+volumes:
+  aedis_postgres:
+  aedis_redis:
+  aedis_quarantine:
+
+networks:
+  aedis_private:
+    driver: bridge

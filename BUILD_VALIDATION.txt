@@ -1,0 +1,24 @@
+AEDIS GLOBAL INTEGRATED v0.2.2 — BUILD VALIDATION
+=================================================
+
+Completed in the packaging environment:
+- Python source compiled without syntax errors.
+- The modified Next.js proxy module passed TypeScript transpilation diagnostics.
+- Redis session configuration was corrected to preserve binary MessagePack data.
+- A Windows CSRF/login/session-persistence smoke check was added to installation.
+- The existing public-route, responsive-brand, and Windows launcher structure was retained.
+- Archive contents and SHA-256 manifest were generated after final packaging.
+
+The packaging environment does not provide a Docker daemon and its private package
+mirrors do not expose every exact dependency used by the Docker build. Therefore,
+the authoritative Next.js production build and PostgreSQL/Redis runtime tests run
+on the Windows computer through install_AEDIS.bat.
+
+The installer now performs, in order:
+1. Docker image build and Next.js type/build checks.
+2. PostgreSQL/Redis/backend/frontend health checks.
+3. A real CSRF token request.
+4. Login using the generated registrant credential.
+5. A follow-up authenticated /auth/me request proving session persistence.
+
+Installation does not report success if the authentication flow fails.

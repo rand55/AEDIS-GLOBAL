@@ -1,0 +1,9 @@
+import type { Metadata } from "next";
+import { publicDemoData } from "@/lib/public-data";
+import { formatMoney, formatNumber } from "@/lib/format";
+
+export const metadata: Metadata = { title: "Workforce Training" };
+export default function TrainingPage() {
+  const data = publicDemoData.training;
+  return <div className="shell page-shell"><header className="page-hero"><div><div className="eyebrow">Workforce transition</div><h1>Automation should change work without abandoning workers.</h1><p>The demonstration program pairs practical training with a living-wage dividend while workers move into infrastructure, oversight, health, and technical roles.</p></div></header><div className="stats four large"><div className="stat"><span>Training tracks</span><strong>{data.summary.total_tracks}</strong></div><div className="stat"><span>Global enrollment</span><strong>{formatNumber(data.summary.total_enrolled_global, true)}</strong></div><div className="stat"><span>Average monthly dividend</span><strong>{formatMoney(data.summary.average_monthly_dividend)}</strong></div><div className="stat"><span>Monthly program scale</span><strong>{formatMoney(data.summary.total_monthly_dividend_payout_b * 1_000_000_000, true)}</strong></div></div><div className="training-grid">{data.tracks.map((track) => <article className="training-card" key={track.id}><div className="training-icon">{track.icon}</div><span>{track.duration_months} months · {formatMoney(track.dividend_monthly)}/month</span><h2>{track.name}</h2><p>{track.description}</p><div className="module-list">{track.modules.slice(0, 3).map((module) => <span key={module}>{module}</span>)}</div><small>{formatNumber(track.enrolled_global, true)} enrolled in the demonstration model</small></article>)}</div><div className="notice subtle section"><strong>Dividend policy:</strong> {data.summary.dividend_policy.description}</div></div>;
+}

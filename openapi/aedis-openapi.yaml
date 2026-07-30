@@ -1,0 +1,132 @@
+openapi: 3.1.0
+info:
+  title: AEDIS Global Local API
+  version: 0.1.0
+  description: Same-origin local evaluation API. Browser clients call /api/aedis/v1 through the Next.js BFF.
+servers:
+  - url: /api/aedis/v1
+paths:
+  /health/ready:
+    get:
+      operationId: readiness
+      responses:
+        '200': { description: Ready }
+  /auth/csrf:
+    get:
+      operationId: getCsrf
+      responses:
+        '200':
+          description: CSRF token bound to the server-side session
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [csrfToken]
+                properties: { csrfToken: { type: string } }
+  /auth/login:
+    post:
+      operationId: login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email: { type: string, format: email }
+                password: { type: string }
+      responses:
+        '200': { description: Authenticated }
+        '401': { description: Invalid credentials }
+  /auth/register:
+    post:
+      operationId: registerAccount
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [fullName, email, password]
+              properties:
+                fullName: { type: string, maxLength: 160 }
+                email: { type: string, format: email }
+                password: { type: string, minLength: 14 }
+      responses:
+        '201': { description: Account created }
+  /auth/me:
+    get:
+      operationId: currentAccount
+      responses:
+        '200': { description: Current account }
+        '401': { description: Not authenticated }
+  /registrations:
+    get:
+      operationId: listOwnedRegistrations
+      responses:
+        '200': { description: Owned registrations }
+    post:
+      operationId: createRegistration
+      parameters:
+        - in: header
+          name: Idempotency-Key
+          required: true
+          schema: { type: string, maxLength: 80 }
+      responses:
+        '201': { description: Draft created }
+  /registrations/{registrationId}:
+    get:
+      operationId: getOwnedRegistration
+      parameters:
+        - in: path
+          name: registrationId
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        '200': { description: Registration }
+        '404': { description: Not found or not owned }
+    patch:
+      operationId: updateOwnedRegistration
+      parameters:
+        - in: path
+          name: registrationId
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        '200': { description: Updated }
+        '409': { description: Optimistic version conflict }
+  /registrations/{registrationId}/submit:
+    post:
+      operationId: submitRegistration
+      parameters:
+        - in: path
+          name: registrationId
+          required: true
+          schema: { type: string, format: uuid }
+        - in: header
+          name: Idempotency-Key
+          required: true
+          schema: { type: string, maxLength: 80 }
+      responses:
+        '200': { description: Submitted }
+  /directory:
+    get:
+      operationId: publicDirectory
+      parameters:
+        - in: query
+          name: sector
+          schema: { type: string }
+        - in: query
+          name: country
+          schema: { type: string, minLength: 2, maxLength: 2 }
+        - in: query
+          name: region
+          schema: { type: string }
+      responses:
+        '200': { description: Approved public organizations }
+  /ledger:
+    get:
+      operationId: publicLedger
+      responses:
+        '200': { description: Posted balanced ledger transactions }

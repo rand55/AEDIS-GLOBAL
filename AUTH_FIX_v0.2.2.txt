@@ -1,0 +1,7 @@
+AEDIS Global Integrated v0.2.2 — authentication session fix
+
+Changes:
+- Redis session storage now preserves Flask-Session MessagePack payloads as binary data.
+- The installer performs a real CSRF + login + authenticated-session check before reporting success.
+- The Next.js private-API proxy now returns a controlled JSON 502 response if the backend is unreachable.
+- No database reset or migration is required for this update.

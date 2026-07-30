@@ -1,0 +1,14 @@
+AEDIS GLOBAL INTEGRATED v0.2.1
+==============================
+
+This package supersedes the v0.1.x secure-shell prototype.
+
+Major corrections:
+- Restored a rich public AEDIS experience and connected it to role workspaces.
+- Replaced the nonce/CSP configuration that blocked browser hydration.
+- Corrected post-login routing for registrant, reviewer, and administrator roles.
+- Added visible local-account credential files and a credential viewer batch file.
+- Added transparency, world, cases, opportunities, reserve, training, resources,
+  directory, ledger, applications, and review pages under one navigation.
+- Uses a new Docker Compose project name to prevent old prototype volumes and
+  newly generated passwords from conflicting.

@@ -1,0 +1,32 @@
+# Generated secrets and local credentials
+.env
+.env.*
+!.env.example
+LOCAL_TEST_ACCOUNTS.txt
+
+# Runtime data
+logs/
+uploads/
+quarantine/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/.next/
+
+# Python-generated files
+__pycache__/
+*.pyc
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating-system files
+.DS_Store
+Thumbs.db
