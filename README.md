@@ -1,6 +1,10 @@
 AEDIS GLOBAL — INTEGRATED LOCAL DEMONSTRATION v0.2.2
 ====================================================
 
+**The proposal this software implements:** [`proposal/AEDIS-PROPOSAL.md`](proposal/AEDIS-PROPOSAL.md) — version 3.2, reviewed by four models across eight rounds,
+with their objections recorded in Appendices G, H and I of the document.
+
+
 WHAT THIS BUILD IS
 ------------------
 This release merges the visual public AEDIS demonstration with the secure-core

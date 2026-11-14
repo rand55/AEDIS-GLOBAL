@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <marker id="s1" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#42d6bd"/>
+    </marker>
+    <marker id="s2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#8fa6b2"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#0b1116"/>
+
+  <text x="70" y="74" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">How AEDIS fits alongside it</text>
+  <text x="70" y="112" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="21">Nothing is replaced. One extra lane is added, with a hard ceiling on it.</text>
+
+  <!-- LEFT LANE -->
+  <rect x="70" y="146" width="700" height="392" rx="16" fill="#141d26" stroke="#8fa6b2" stroke-width="2"/>
+  <text x="100" y="186" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">WHAT DOES NOT CHANGE</text>
+
+  <text x="100" y="230" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23">Taxes still get collected.</text>
+  <text x="100" y="266" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23">Bonds still get sold, and still pay interest.</text>
+  <text x="100" y="302" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23">Banks still take deposits and make loans.</text>
+  <text x="100" y="338" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23">Every existing budget line stays where it is.</text>
+
+  <rect x="100" y="362" width="640" height="2" fill="#1e2a33"/>
+
+  <text x="100" y="404" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="21">AEDIS does not replace any of this. It does</text>
+  <text x="100" y="436" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="21">not take deposits, make loans or pay interest.</text>
+  <text x="100" y="468" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="21">It is a second way to fund public capacity,</text>
+  <text x="100" y="500" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="21">sitting beside the first one.</text>
+
+  <!-- RIGHT LANE -->
+  <rect x="806" y="146" width="724" height="392" rx="16" fill="#141d26" stroke="#42d6bd" stroke-width="2"/>
+  <text x="836" y="186" fill="#42d6bd" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">WHAT AEDIS ADDS</text>
+
+  <rect x="836" y="204" width="664" height="58" rx="9" fill="#0b1116" stroke="#42d6bd" stroke-width="1.5"/>
+  <text x="856" y="240" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21">1.  The central bank sets a ceiling: how much, this year</text>
+
+  <line x1="1168" y1="266" x2="1168" y2="286" stroke="#42d6bd" stroke-width="2.5" marker-end="url(#s1)"/>
+
+  <rect x="836" y="290" width="664" height="58" rx="9" fill="#0b1116" stroke="#42d6bd" stroke-width="1.5"/>
+  <text x="856" y="326" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21">2.  A project is allowed only if it builds capacity</text>
+
+  <line x1="1168" y1="352" x2="1168" y2="372" stroke="#42d6bd" stroke-width="2.5" marker-end="url(#s1)"/>
+
+  <rect x="836" y="376" width="664" height="58" rx="9" fill="#0b1116" stroke="#42d6bd" stroke-width="1.5"/>
+  <text x="856" y="412" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21">3.  Money is created under that authority, in stages</text>
+
+  <line x1="1168" y1="438" x2="1168" y2="458" stroke="#42d6bd" stroke-width="2.5" marker-end="url(#s1)"/>
+
+  <rect x="836" y="462" width="664" height="58" rx="9" fill="#0b1116" stroke="#42d6bd" stroke-width="1.5"/>
+  <text x="856" y="498" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21">4.  If the asset earns, its own receipts cancel the money</text>
+
+  <!-- SHARED BAND -->
+  <rect x="70" y="558" width="1460" height="132" rx="16" fill="#141d26" stroke="#7c6cff" stroke-width="2"/>
+  <text x="100" y="598" fill="#7c6cff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">WHAT BOTH LANES SHARE</text>
+  <text x="100" y="640" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="22">Contractors are still paid in national currency, through banks. Every payment still lands on a public ledger.</text>
+  <text x="100" y="674" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="22">The public accounts are still audited by the same auditors, and the ceiling can be refused before money is spent.</text>
+
+  <!-- HONEST NOTE -->
+  <rect x="70" y="710" width="1460" height="106" rx="14" fill="#0b1116" stroke="#f4bd55" stroke-width="2"/>
+  <text x="100" y="748" fill="#f4bd55" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">THE HONEST PART</text>
+  <text x="100" y="786" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23">This is still money creation. Where it appears in the accounts is settled by published rules —</text>
+  <text x="100" y="810" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20">not by anyone's label. And war, patronage and old debt are excluded by name.</text>
+
+  <!-- footer -->
+  <text x="70" y="866" fill="#42d6bd" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">One extra lane, hard-capped, for the things a bank cannot lend against.</text>
+</svg>

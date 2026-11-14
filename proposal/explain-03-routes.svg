@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <marker id="r1" markerWidth="11" markerHeight="11" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L11,5 L0,10 z" fill="#e2574c"/>
+    </marker>
+    <marker id="r2" markerWidth="11" markerHeight="11" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L11,5 L0,10 z" fill="#42d6bd"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#0b1116"/>
+
+  <text x="80" y="92" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Two ways to fund a road</text>
+  <text x="80" y="134" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="22">Frame 3 — what happens today, and what AEDIS changes</text>
+
+  <!-- LEFT: today -->
+  <rect x="70" y="176" width="700" height="560" rx="16" fill="#141d26" stroke="#e2574c" stroke-width="2"/>
+  <text x="104" y="222" fill="#e2574c" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">TODAY — THE STATE BORROWS</text>
+
+  <rect x="104" y="250" width="300" height="76" rx="10" fill="#0b1116" stroke="#e2574c"/>
+  <text x="254" y="296" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">the road is needed</text>
+
+  <rect x="104" y="356" width="300" height="86" rx="10" fill="#0b1116" stroke="#e2574c"/>
+  <text x="254" y="392" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">the treasury issues</text>
+  <text x="254" y="420" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">bonds</text>
+
+  <line x1="254" y1="330" x2="254" y2="350" stroke="#e2574c" stroke-width="3" marker-end="url(#r1)"/>
+
+  <rect x="104" y="472" width="300" height="86" rx="10" fill="#0b1116" stroke="#e2574c"/>
+  <text x="254" y="508" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">banks and investors</text>
+  <text x="254" y="536" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">buy them</text>
+
+  <line x1="254" y1="446" x2="254" y2="466" stroke="#e2574c" stroke-width="3" marker-end="url(#r1)"/>
+
+  <rect x="104" y="588" width="300" height="110" rx="10" fill="#0b1116" stroke="#e2574c"/>
+  <text x="254" y="626" fill="#e2574c" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle" font-weight="700">interest every year</text>
+  <text x="254" y="658" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">paid by taxpayers</text>
+  <text x="254" y="684" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">until it is repaid</text>
+
+  <line x1="254" y1="562" x2="254" y2="582" stroke="#e2574c" stroke-width="3" marker-end="url(#r1)"/>
+
+  <text x="440" y="300" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20">Shows on the</text>
+  <text x="440" y="326" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20">national debt.</text>
+  <text x="440" y="396" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20">The central bank</text>
+  <text x="440" y="422" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20">may buy some later.</text>
+  <text x="440" y="512" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20">They want a return</text>
+  <text x="440" y="538" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20">and their money back.</text>
+
+  <!-- RIGHT: AEDIS -->
+  <rect x="830" y="176" width="700" height="560" rx="16" fill="#141d26" stroke="#42d6bd" stroke-width="2"/>
+  <text x="864" y="222" fill="#42d6bd" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">AEDIS — THE CENTRAL BANK IS AUTHORISED</text>
+
+  <rect x="864" y="250" width="300" height="76" rx="10" fill="#0b1116" stroke="#42d6bd"/>
+  <text x="1014" y="296" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">verified need,</text>
+
+  <rect x="864" y="356" width="300" height="86" rx="10" fill="#0b1116" stroke="#42d6bd"/>
+  <text x="1014" y="392" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">an envelope, checked</text>
+  <text x="1014" y="420" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">against spare capacity</text>
+
+  <line x1="1014" y1="330" x2="1014" y2="350" stroke="#42d6bd" stroke-width="3" marker-end="url(#r2)"/>
+
+  <rect x="864" y="472" width="300" height="86" rx="10" fill="#0b1116" stroke="#42d6bd"/>
+  <text x="1014" y="508" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">the central bank</text>
+  <text x="1014" y="536" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle">creates it</text>
+
+  <line x1="1014" y1="446" x2="1014" y2="466" stroke="#42d6bd" stroke-width="3" marker-end="url(#r2)"/>
+
+  <rect x="864" y="588" width="300" height="110" rx="10" fill="#0b1116" stroke="#42d6bd"/>
+  <text x="1014" y="622" fill="#42d6bd" font-family="Segoe UI, Arial, sans-serif" font-size="21" text-anchor="middle" font-weight="700">paid on delivery.</text>
+  <text x="1014" y="652" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">Receipts from the asset</text>
+  <text x="1014" y="678" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">cancel it again.</text>
+
+  <line x1="1014" y1="562" x2="1014" y2="582" stroke="#42d6bd" stroke-width="3" marker-end="url(#r2)"/>
+
+  <text x="1200" y="290" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="20">No creditor.</text>
+  <text x="1200" y="316" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="20">No lender to repay.</text>
+  <text x="1200" y="386" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="20">No interest,</text>
+  <text x="1200" y="412" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="20">no maturity date.</text>
+  <text x="1200" y="502" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="20">Anything built for</text>
+  <text x="1200" y="528" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="20">war is excluded.</text>
+
+  <!-- footer honest line -->
+  <rect x="70" y="756" width="1460" height="96" rx="12" fill="#0b1116" stroke="#f4bd55" stroke-width="2"/>
+  <text x="104" y="796" fill="#f4bd55" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">THE HONEST PART</text>
+  <text x="104" y="820" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="21">It is not a loan, so no lender is owed and no interest accrues.</text>
+  <text x="104" y="848" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="21">Where it appears in the accounts is settled by published classification rulings before activation — not by a label.</text>
+
+</svg>

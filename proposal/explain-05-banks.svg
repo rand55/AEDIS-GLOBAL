@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <rect width="1600" height="900" fill="#0b1116"/>
+
+  <text x="80" y="96" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700">How this works with banks</text>
+  <text x="80" y="140" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="22">Frame 5 — not instead of them, and not a replacement for money</text>
+
+  <!-- AEDIS column -->
+  <rect x="70" y="200" width="690" height="520" rx="16" fill="#141d26" stroke="#42d6bd" stroke-width="2"/>
+  <text x="110" y="256" fill="#42d6bd" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">AEDIS DOES</text>
+
+  <text x="110" y="318" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· authorises issuance for verified capacity</text>
+  <text x="110" y="368" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· sets and refuses the ceiling</text>
+  <text x="110" y="418" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· records every payment on the ledger</text>
+  <text x="110" y="468" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· builds and owns the asset</text>
+  <text x="110" y="518" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· cancels money with asset receipts</text>
+
+  <text x="110" y="596" fill="#e2574c" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">AEDIS DOES NOT</text>
+  <text x="110" y="640" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="23">take deposits · make loans · pay interest</text>
+  <text x="110" y="676" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="23">lend to a doctor for her instruments</text>
+
+  <!-- divider -->
+  <line x1="800" y1="200" x2="800" y2="720" stroke="#f4bd55" stroke-width="4" stroke-dasharray="14 12"/>
+  <text x="800" y="176" fill="#f4bd55" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle">the boundary</text>
+
+  <!-- banks column -->
+  <rect x="840" y="200" width="690" height="520" rx="16" fill="#141d26" stroke="#f4bd55" stroke-width="2"/>
+  <text x="880" y="256" fill="#f4bd55" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">BANKS STILL DO</text>
+
+  <text x="880" y="318" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· hold contractor and household accounts</text>
+  <text x="880" y="368" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· settle payments in national currency</text>
+  <text x="880" y="418" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· lend for equipment, homes, vehicles</text>
+  <text x="880" y="468" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· finance elective and cosmetic care</text>
+  <text x="880" y="518" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="24">· run the payment system itself</text>
+
+  <text x="880" y="596" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">THE ONLY THING THAT CHANGES</text>
+  <text x="880" y="640" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23">public capacity stops competing</text>
+  <text x="880" y="676" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23">with housing and business for loans</text>
+
+  <!-- footer -->
+  <text x="80" y="800" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="25">A practitioner still pays rent, pays the electricity bill, and borrows from a bank for equipment.</text>
+  <text x="80" y="840" fill="#42d6bd" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">Her fees are covered. Her premises are not.</text>
+
+</svg>

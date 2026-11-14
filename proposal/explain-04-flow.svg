@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <marker id="c1" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#42d6bd"/>
+    </marker>
+    <marker id="c2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#e2574c"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#0b1116"/>
+
+  <text x="80" y="96" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700">What AEDIS issues against instead</text>
+  <text x="80" y="140" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="22">Frame 4 — verified capacity, not collateral</text>
+
+  <!-- step chain -->
+  <rect x="70" y="230" width="250" height="120" rx="14" fill="#141d26" stroke="#42d6bd" stroke-width="2"/>
+  <text x="195" y="278" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23" text-anchor="middle">A ceiling is set</text>
+  <text x="195" y="310" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="19" text-anchor="middle">per currency area</text>
+
+  <rect x="380" y="230" width="250" height="120" rx="14" fill="#141d26" stroke="#42d6bd" stroke-width="2"/>
+  <text x="505" y="278" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23" text-anchor="middle">Materials delivered</text>
+  <text x="505" y="310" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="19" text-anchor="middle">paid on delivery</text>
+
+  <rect x="690" y="230" width="250" height="120" rx="14" fill="#141d26" stroke="#42d6bd" stroke-width="2"/>
+  <text x="815" y="278" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23" text-anchor="middle">Work performed</text>
+  <text x="815" y="310" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="19" text-anchor="middle">paid at midpoint</text>
+
+  <rect x="1000" y="230" width="250" height="120" rx="14" fill="#141d26" stroke="#42d6bd" stroke-width="2"/>
+  <text x="1125" y="278" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23" text-anchor="middle">Verified, then</text>
+  <text x="1125" y="310" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="19" text-anchor="middle">the next tranche</text>
+
+  <rect x="1310" y="230" width="220" height="120" rx="14" fill="#141d26" stroke="#42d6bd" stroke-width="2"/>
+  <text x="1420" y="278" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="23" text-anchor="middle">Asset works</text>
+  <text x="1420" y="310" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="19" text-anchor="middle">receipts cancel</text>
+
+  <line x1="324" y1="290" x2="374" y2="290" stroke="#42d6bd" stroke-width="3" marker-end="url(#c1)"/>
+  <line x1="634" y1="290" x2="684" y2="290" stroke="#42d6bd" stroke-width="3" marker-end="url(#c1)"/>
+  <line x1="944" y1="290" x2="994" y2="290" stroke="#42d6bd" stroke-width="3" marker-end="url(#c1)"/>
+  <line x1="1254" y1="290" x2="1304" y2="290" stroke="#42d6bd" stroke-width="3" marker-end="url(#c1)"/>
+
+  <!-- refusal branch -->
+  <line x1="195" y1="356" x2="195" y2="440" stroke="#e2574c" stroke-width="3" marker-end="url(#c2)"/>
+  <rect x="70" y="450" width="480" height="110" rx="12" fill="#0b1116" stroke="#e2574c" stroke-width="2"/>
+  <text x="100" y="496" fill="#e2574c" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">THE CEILING CAN BE REFUSED</text>
+  <text x="100" y="532" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20">before commitments, not after spending</text>
+
+  <!-- ledger -->
+  <rect x="600" y="450" width="930" height="110" rx="12" fill="#141d26" stroke="#7c6cff" stroke-width="2"/>
+  <text x="632" y="496" fill="#7c6cff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">EVERY PAYMENT IS ON A PUBLIC LEDGER</text>
+  <text x="632" y="532" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="20">contract, delivery, verification, payment, classification — machine-readable</text>
+
+  <!-- bottom line -->
+  <rect x="70" y="620" width="1460" height="200" rx="16" fill="#0b1116" stroke="#42d6bd" stroke-width="2"/>
+  <text x="110" y="686" fill="#e8f1f5" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Issued against verified capacity,</text>
+  <text x="110" y="736" fill="#42d6bd" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">not against collateral.</text>
+  <text x="110" y="784" fill="#8fa6b2" font-family="Segoe UI, Arial, sans-serif" font-size="22">No maturity. No interest. No holder can demand redemption.</text>
+
+</svg>
