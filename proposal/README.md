@@ -153,7 +153,7 @@ The one-page summary is available in twelve languages — Spanish, French, Arabi
 Russian, Chinese, Hindi, Indonesian, German, Japanese, Korean and Italian — in `translations/`.
 
 All 195 countries, in every language translated so far, are in the companion repository
-[`AEDIS-global-distribution`](https://github.com/rand55/AEDIS-global-distribution).
+[`AEDIS-LANGUAGES`](https://github.com/rand55/AEDIS-LANGUAGES).
 
 **Every translation is machine translation and has not been reviewed by a native speaker.** Each
 file says so in its own header. Where a translation and the English text differ, the English text
