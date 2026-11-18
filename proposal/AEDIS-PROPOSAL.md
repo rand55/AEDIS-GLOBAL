@@ -1,11 +1,11 @@
 # AEDIS — Advanced Economic Development and Infrastructure System
 
-**Version 3.2 — final, for publication.** Supersedes v3.1 and every earlier version. Adds 6.9, which
-states what training is: investment that augments capacity, producing no recoverable asset, whose
-subsistence guarantee is protection of an asset under construction rather than a benefit. Also writes
-the Appendix H that earlier versions cited but did not contain. Three sign-offs are recorded here and
-none of them is unanimous: Appendix G for v1.1, H for v2.1, I for v2.9, with the dissent named in
-each.
+**Version 3.3. Supersedes v3.2 and every earlier version.** Integrates the panel's review of an
+external review draft: the mechanical real-intensity test (1.4, and the frozen denominator in 3.7a),
+classification consequences (8.2a), the evidentiary pause that may not touch protected payments (7.8a),
+pilots that gate scaling rather than starting (10.6), and the falsification list (11.10). Appendix J
+records what happened to each of the draft's clauses; all four reviewers named 12.7 the clause that
+would do most damage, and it did not survive in its own form.
 
 **Randal Turner**, main architect, working with four AI models — OpenAI GPT-6 Astra Pro,
 Anthropic Claude Fable 5.2, Google Gemini 4 Argon and DeepSeek V4 Pro — as reviewers.
@@ -24,7 +24,7 @@ because they can pay for it.
 dominant military power, or preserving any institution because it is incumbent. A framework
 that could be captured for those purposes has failed at the first step.
 
-**0.3 The premise.** Machine labor is absorbing work faster than new work is created, and
+**0.3 The premise.** Machine labour is absorbing work faster than new work is created, and
 is no longer confined to routine manufacturing. Haulage, field agriculture, cleaning,
 warehousing, clerical work, logistics and parts of medicine are being automated with
 improving economics. The job does not vanish; it moves up one level, and one trained person
@@ -67,7 +67,7 @@ afford, which is what the Tier 1 envelope is for.
 
 **0.5 The objective.** AI and humans working together, with gains distributed broadly enough
 that the arrangement holds. Not AI replacing people; not people suppressing AI. A division of
-labor that survives its own success.
+labour that survives its own success.
 
 **0.6 Two commitments that bind AEDIS against its own friends.**
 
@@ -82,7 +82,7 @@ labor that survives its own success.
 
 ## PART I — ARCHITECTURE: THREE TIERS
 
-AEDIS is three programs with separate envelopes, separate accounting and separate
+AEDIS is three programmes with separate envelopes, separate accounting and separate
 governance. Treating them as one is what produced the contradiction in earlier drafts, which
 capped operating costs at 24 months while promising to pay every clinician indefinitely.
 
@@ -97,7 +97,7 @@ in 3.6.
 A training dividend, capped at **24 months per verified displacement event** (6.1), for
 workers displaced by automation and for people entering occupations that are not a public
 need. Eligibility accepts either verified displacement or a qualifying occupational transition
-under published criteria, so a person this clause covers cannot fail the authorization gate for
+under published criteria, so a person this clause covers cannot fail the authorisation gate for
 want of a displacement. It self-liquidates: each event's support ends. It does not apply to
 clinical training, where qualification ends training and begins Tier 1 employment.
 
@@ -109,6 +109,35 @@ revenue-bearing assets return money to the ledger.
 **1.4 No tier may borrow from another, and the rule is enforced, not declared.** Tier 3
 receipts cannot fund Tier 1 care; Tier 1 issuance cannot be counted as Tier 3 retirement. Any
 transfer between tiers is a published amendment to this document, not a budget decision. **The ledger protocol blocks cross-tier transfers automatically and publishes every attempt, and a treasury reducing baseline spending below its published figure suspends new approvals under 4.4.** A rule without an automatic block is a suggestion.
+
+**Every baseline schedule published under 1.4 must carry a real-intensity metric, and the metric
+must be one the treasury cannot choose alone.**
+
+Nominal spending can be held on schedule while the service behind it shrinks: the money is relabelled,
+the function is quietly replaced, or the count is inflated. A schedule that can only be met by
+spending more is not a measurable commitment, so:
+
+- **the lot-drawn auditor holds two frozen metrics per covered function, one of volume and one of
+  access or quality**, and the definitions are published at activation. Choosing a single metric is
+  what makes the test gameable: a count of connections held up while the connections fail is a
+  passing number attached to a failing service;
+- **the choice belongs to the auditor, not the treasury**, because a treasury that selects its own
+  scorecard has not been measured;
+- **a breach exists when nominal spending is at or above the published schedule while either frozen
+  metric falls beyond the published tolerance for two consecutive observation periods**, and a breach
+  flag opens a substitution finding within sixty days rather than a suspension. The finding asks what
+  replaced what, and an expired deadline confers no clearance;
+- **metrics are need-adjusted before they are judged.** Falling patient encounters because a
+  population got healthier is not a breach, and a rule that cannot tell the difference punishes
+  success;
+- **a statistical revision is permitted only with a reproducible historical bridge, published before
+  the revision takes effect**, because a series that can be redefined after ratification is a series
+  whose author controls the result.
+
+The same test applies to the spare-capacity component of the 3.7 envelope. **The sectoral
+unemployment and capital-utilisation series used in that denominator may not be redefined after
+ratification** except under the bridge rule above, and an independent ruling on the bridge is
+published with it. Whoever can redefine the denominator can silently raise the ceiling.
 
 **The baseline is a published spending schedule, not a number.** Before activation the treasury
 publishes an independently audited schedule stating the baseline for each covered function, its
@@ -143,7 +172,7 @@ hyperinflation. An envelope with no rule is the present arrangement.
 eroded purchasing power whenever issuance outpaces what the economy can absorb. There is no
 version of this where nobody bears any cost. The precise, testable question is: **does the
 real cost of essentials fall faster than the currency dilutes?** If it does, the poorest are
-net winners. If it does not, the program has failed, and Part VIII requires that this be
+net winners. If it does not, the programme has failed, and Part VIII requires that this be
 published.
 
 **2.5 AEDIS is structurally separate from the banking system, but not functionally
@@ -179,7 +208,7 @@ and no holder can be made to repay it. **6.9 states what follows from that disti
 the reason Tier 2 is financed as investment in one paragraph and treated as a transfer in the next. Consumptive expenditure remains on
 conventional sovereign borrowing, where interest cost and market discipline already apply.
 
-**3.2 The eligibility test is tier-specific**, published and falsifiable. Every authorization
+**3.2 The eligibility test is tier-specific**, published and falsifiable. Every authorisation
 must cite its envelope.
 
 - **Tier 1:** verified delivery of covered care.
@@ -192,17 +221,17 @@ must cite its envelope.
 - **Tier 3:** the project adds measurable capacity; that capacity is verified before the next
   tranche; and the project would still be approved if its output had to be sold at cost.
 
-A single asset-project test cannot authorize care or training; applying one was a category error
+A single asset-project test cannot authorise care or training; applying one was a category error
 in an earlier draft. Equally, no non-asset tier may be forced through commercial cost-recovery
 tests. An audit finding either defect is a failed audit.
 
-**3.3 The humanitarian baseline.** SIC authorization is void for military operations, combat
+**3.3 The humanitarian baseline.** SIC authorisation is void for military operations, combat
 equipment or offensive weapons systems. Any attempt to divert credit to those purposes
 permanently disqualifies the responsible entity and triggers automatic public disclosure.
 
 **3.4 Issuance is released against verified progress, not against promises.**
 - **Materials first.** Procurement is funded against delivered materials.
-- **Labor when performed.** A tranche at the midpoint of construction, the balance at
+- **Labour when performed.** A tranche at the midpoint of construction, the balance at
   completion.
 - **Training dividends against verified participation**, never credited in advance.
 - Peak circulating SIC during construction is therefore roughly **30–50% of contract value**,
@@ -227,7 +256,7 @@ withdraw purchasing power.
 - The basket and its methodology are **frozen at ratification** and independently audited.
   The body being constrained may not redefine the measure.
 - Adjustment is **proportional** to the size of the breach and responds to forecasts, not only
-  to realized inflation.
+  to realised inflation.
 - The mechanism must be able to **cancel currency**, not merely delay issuance.
 - It must account for construction and humanitarian commitments that cannot be paused.
 - **On breach, the central bank alone — without treasury override — reduces in order: uncommitted
@@ -250,8 +279,12 @@ breaching the exchange-rate pass-through limit published under 3.6.** Before an 
 stressed cash-flow schedule: cancellation needs during construction and early operation;
 executable withdrawal instruments with amounts, costs and implementation lags; and net receipts
 under delayed completion, lower demand and higher operating costs. **An envelope that fails is
-reduced before commitments are made** — never clawed back from spent advances. Raising a ceiling
-immediately after an inflation breach is a failed audit, not a calibration.
+reduced before commitments are made** — never clawed back from spent advances. Raising a ceiling immediately after an inflation breach is a failed audit, not a calibration.
+
+**3.7a The ceiling's denominator is frozen against the operator.** The spare-capacity and
+import-absorption series that size the envelope are published at activation, and may be revised only
+with a reproducible historical bridge and an independent ruling, both published before the revision
+takes effect. A ceiling calculated from a series its author can redefine is not a ceiling.
 
 **3.8 The cancellation waterfall.** All receipts from revenue-bearing assets are applied in
 this order, automatically, on the ledger:
@@ -266,12 +299,12 @@ this order, automatically, on the ledger:
 
 **No recycling, no stabilisation reserve and no discretionary holding — which means no off-ledger
 surplus pools. Only scheduled operating, maintenance and 4.7 balances may be held.** **The central bank — not the settlement operator — publishes independent confirmation that
-reserves were extinguished and an equal nominal amount of SIC canceled. Matched entries must show
+reserves were extinguished and an equal nominal amount of SIC cancelled. Matched entries must show
 it; an account transfer alone does not qualify, and audited SIC outstanding must fall by the swept
 amount.**
 
 **3.9 Surplus-first, including interest on operational balances.** **Before any new credit
-is authorized for a local work the ledger operator applies, first, the legally available operating
+is authorised for a local work the ledger operator applies, first, the legally available operating
 and maintenance balances — including interest accrued on them — and then the principal held in the
 zero-interest 4.7 sub-account, which earns none by design.** Both are applied only above the
 certified maintenance floor under 4.5. Interest is
@@ -281,7 +314,7 @@ new currency is issued.
 **3.10 Classification of assets.** Each asset is classified at approval:
 
 - **Revenue-bearing** — energy generation and grids, water treatment and pipelines, telecoms,
-  transit, ports, data centers, and commercial floor space inside public assets. These carry
+  transit, ports, data centres, and commercial floor space inside public assets. These carry
   published tariffs or rents charged to **commercial users**, and their receipts follow 3.8.
 - **Non-revenue** — clinics, schools, parks, shelter, rehabilitation facilities and other
   social infrastructure. These charge the public nothing, carry **no retirement schedule**, and
@@ -290,8 +323,8 @@ new currency is issued.
 Classification is frozen at approval. Reclassification is an amendment to this document, not
 a management decision.
 
-**3.11 The Portfolio Retirement Ratio is published, not assumed.** Realized cancellations over
-realized issuance, by asset class and in aggregate, alongside outstanding stock, with projected
+**3.11 The Portfolio Retirement Ratio is published, not assumed.** Realised cancellations over
+realised issuance, by asset class and in aggregate, alongside outstanding stock, with projected
 receipts labelled separately and never presented as achieved. **No minimum ratio is imposed
 until out-of-sample evidence supports one**; the figures currently in circulation are
 placeholders, and this document does not pretend otherwise. **Every placeholder is listed in
@@ -302,8 +335,8 @@ while it remains undefined.**
 class-specific floor, it preregisters a held-out test — the cohort, the matching variables and the
 acceptance threshold — and the recommendation stands or falls on the held-out result.
 
-**The denominator and the window are named, because all four panelists asked for them:** realized
-cancellations over realized issuance, per asset class, measured over a **rolling sixty-month window
+**The denominator and the window are named, because all four panelists asked for them:** realised
+cancellations over realised issuance, per asset class, measured over a **rolling sixty-month window
 of completed assets of that class**, with assets excluded until twelve months after handover so that
 receipts are in operation rather than start-up. A class with fewer than five completed assets in the
 window has no ratio published and no floor recommended, and that fact is published rather than
@@ -322,17 +355,17 @@ question.
 
 ## PART IV — TIER 3: CAPITAL DELIVERY
 
-**4.1 Demand and staffing are proven before authorization.** No asset is authorized without:
+**4.1 Demand and staffing are proven before authorisation.** No asset is authorised without:
 
-- **evidence of need** — enrollment registers, patient waiting lists, or pre-committed service
+- **evidence of need** — enrolment registers, patient waiting lists, or pre-committed service
   agreements from the institutions that will use it;
 - **committed staffing** — named practitioners with pre-ordered slots, commitment letters, and
   an identified training pipeline rather than an assumed one;
 - **operations costed against actual fiscal capacity**, not promised.
 
-An asset with no committed users or no committed staff is not authorized.
+An asset with no committed users or no committed staff is not authorised.
 
-**4.2 One payer per cost line, assigned before authorization.** Before construction, the
+**4.2 One payer per cost line, assigned before authorisation.** Before construction, the
 treasury and care purchaser publish a stress-tested, legally appropriated operating schedule
 assigning every cost to exactly one payer. **Receipts committed under 3.8 may not be pledged
 twice, and no asset's receipts may fund another asset's operations outside 4.7.** Treasuries
@@ -371,7 +404,7 @@ produce an outcome 0.4 forbids. **A framework that can build a school but cannot
 not solved the problem it was created for.**
 
 **4.6 Local content is an economic instrument, and it must earn its cost.** Projects carry an
-**80% local labor preference** and a published local-materials preference. This is not sentiment:
+**80% local labour preference** and a published local-materials preference. This is not sentiment:
 income spent on imports multiplies abroad, and the multiplier is the mechanism by which construction
 spending becomes local business revenue.
 
@@ -386,7 +419,7 @@ would strike the 80% preference entirely, calling it a subsidy to whoever alread
 franchise; OpenAI, Anthropic and Gemini accepted it with the denominator and decider above. The
 dissent is recorded rather than resolved.
 
-**4.6a The capability-gap exception, which abolishes itself.** A local-labor preference that cannot
+**4.6a The capability-gap exception, which abolishes itself.** A local-labour preference that cannot
 be waived would stop the projects it exists to enable: no country can build a grid it has never built
 before using only people who have never built one. **An out-of-jurisdiction contractor or crew may
 therefore be engaged where a capability-gap finding shows no local supplier or workforce able to do
@@ -412,7 +445,7 @@ three or more projects, **AEDIS may fund a manufacturing or assembly facility in
 Tier 3 capital.**
 
 **Three imports show a pattern of demand, not a viable factory**, and OpenAI, Anthropic and Gemini all
-made that point. Beyond the count, authorization therefore requires:
+made that point. Beyond the count, authorisation therefore requires:
 
 - **an aggregate volume threshold** — a stated minimum annual demand over a defined period, published
   before approval;
@@ -438,7 +471,7 @@ construction**, audited independently:
   maintenance, water, drainage, safety;
 - **new amenities with no public-need test are ineligible**;
 - no official may vary the split or the schedule;
-- balances accumulate within one schedule period and are canceled at its end; unspent
+- balances accumulate within one schedule period and are cancelled at its end; unspent
   allocation is not carried forward;
 - the remaining 80% follows 3.8.
 
@@ -451,7 +484,7 @@ spending can be justified that way.
 
 **4.9 Worked example.** Hospital rental receipts in Alder County accumulated in the
 local-renewal account. When school repairs arose, the balance covered the cost and **no
-additional AEDIS credit was issued for the work at all.** That is the intended behavior: the
+additional AEDIS credit was issued for the work at all.** That is the intended behaviour: the
 asset funded a neighbouring public need out of surplus it was already generating. A framework
 that must issue fresh currency for every repair has not solved the problem; one whose assets
 cover each other's renewal needs has.
@@ -460,7 +493,7 @@ cover each other's renewal needs has.
 
 ## PART IV-A — MATERIALS, AND THE RESOURCE FALSE START
 
-The original proposal began with Phase Zero: nations authorized capital directly to existing
+The original proposal began with Phase Zero: nations authorised capital directly to existing
 conglomerates to "massively scale global extraction", so that materials would exist before building
 began. **That sequence is withdrawn**, and this Part replaces it. The reasoning matters more than the
 conclusion, because the same mistake is easy to make again.
@@ -472,7 +505,7 @@ conclusion, because the same mistake is easy to make again.
    Money issued for extraction capacity in year one buys metal in year twelve — and buys inflation
    immediately.
 2. **Most of a project is not globally traded material.** Roads, water, sanitation, housing and school
-   repair are dominated by local aggregate, cement, timber and labor. Copper, aluminium and
+   repair are dominated by local aggregate, cement, timber and labour. Copper, aluminium and
    specialised steel are a minority of cost, and the genuinely scarce inputs are *manufactured* —
    transformers, turbines, switchgear, cable — not mined.
 3. **Paying incumbents to expand duplicates a market that already exists.** A large mining house can
@@ -482,25 +515,25 @@ conclusion, because the same mistake is easy to make again.
 The original text also carried a political cost that was never priced: it made the framework's first
 act a subsidy to the largest extractive companies in the world.
 
-**4.11 The pipeline is published before it is funded.** Before any materials program, the monetary
+**4.11 The pipeline is published before it is funded.** Before any materials programme, the monetary
 operator publishes the **aggregate requirement**: by material class, by region and by year, for the
-projects already authorized and the projects forecast. **No issuance accompanies this publication.**
+projects already authorised and the projects forecast. **No issuance accompanies this publication.**
 
 Aggregation is the whole mechanism. One project cannot justify a cable plant or a transformer works;
 a published ten-year requirement can, and it can be contracted against. This is how national rail
-programs and offshore wind auctions already operate — the buyer publishes the volume, and industry
+programmes and offshore wind auctions already operate — the buyer publishes the volume, and industry
 builds to it.
 
-**4.12 Build first with the materials that already exist.** The program's opening wave is chosen for
+**4.12 Build first with the materials that already exist.** The programme's opening wave is chosen for
 **input availability**, not for prestige:
 
 - renewal and repair (4.5) — a school roof needs no new supply chain;
 - water, sanitation and drainage — local materials dominate;
 - housing and clinic construction — local materials dominate;
-- labor-intensive works, which is also where 6.7's demand for workers is strongest.
+- labour-intensive works, which is also where 6.7's demand for workers is strongest.
 
 **This is the inversion that answers the sequencing problem.** Build what can be built now, so that
-employment and capacity arrive before any materials program is needed. The projects that require
+employment and capacity arrive before any materials programme is needed. The projects that require
 new mining are the ones that wait, and by waiting they stop being on the critical path.
 
 **4.13 Contract forward for long-lead items; do not own the supply chain.** Where an input is genuinely
@@ -543,11 +576,11 @@ country keeps the asset rather than importing the finished good forever, which i
 Oracle" linked issuance to a commodity index and was withdrawn because it had no denominator. Its
 concern was correct and the replacement is operational:
 
-> **The monetary operator publishes an input price index for program materials. Where that index
+> **The monetary operator publishes an input price index for programme materials. Where that index
 > rises faster than the basket in 3.6 for two consecutive periods, the envelope is reduced before
 > further commitments are made.**
 
-A program large enough to matter is large enough to move its own input prices. Issuing against a
+A programme large enough to matter is large enough to move its own input prices. Issuing against a
 price it has just pushed up is how an infrastructure boom inflates itself, and no amount of capacity
 accounting prevents it if the envelope ignores input costs.
 
@@ -562,7 +595,7 @@ weights are published before activation and frozen with the 3.6 basket.
 permitted, on three conditions: the reserve is published by class and location, it holds a stated
 number of months of forecast consumption, and its acquisition goes through 4.13's offtake rules. A
 reserve that grows without a release rule is a warehouse; a reserve with one is insurance against a
-supply interruption the program cannot control.
+supply interruption the programme cannot control.
 
 **What this Part costs, stated plainly.** The opening wave is less spectacular than the original
 proposal claimed: repair, water, housing and local works rather than new mines and new grids in year
@@ -577,7 +610,7 @@ cannot be mined, and 4.10's second fact is that the manufactured items are the r
 
 **4.18 AEDIS buys the high-value material and issues it free.** For items on a **published free-issue
 list** — long-lead, high-value, or safety-critical — AEDIS procures the material and owns it until it
-is installed. The contractor receives it **at no charge**, and the bid covers labor, plant, overhead
+is installed. The contractor receives it **at no charge**, and the bid covers labour, plant, overhead
 and profit only. The material never enters the price.
 
 This is standard practice in power, oil and gas, and large public works, and it exists for exactly the
@@ -612,7 +645,7 @@ buys locally and is reimbursed **at a published reference price per unit, not at
 **4.20 No margin on a cost AEDIS has already borne.** The rule that ties 4.18 and 4.19 together:
 
 > **No bid may include a mark-up, handling charge, or profit on any material or component that AEDIS
-> procured or whose price AEDIS has published. Bids are evaluated on labor, plant, overhead and
+> procured or whose price AEDIS has published. Bids are evaluated on labour, plant, overhead and
 > profit; the material exclusion is stated in the bid documents and shown in the evaluation.**
 
 The mark-up problem is not dishonesty, it is structure: a contractor who buys material at cost and
@@ -639,7 +672,7 @@ remain AEDIS property until consumed, and surplus does not belong to whoever hap
 - **every cross-border transfer is recorded** on the ledger, with the receiving project and the
   releasing one named.
 
-Sharing is where a multinational program beats a national one: a transformer bought for a project
+Sharing is where a multinational programme beats a national one: a transformer bought for a project
 that was deferred is worth more to a neighbouring country than to a warehouse.
 
 **4.22 Manufactured capacity is capital, and it is eligible.** A plant that makes components for the
@@ -696,7 +729,7 @@ funds relocation, including moving costs, licensing and a published settling all
 Mobility is cheaper than building capacity where nobody will work.
 
 **5.8 Disease surveillance is coupled to the ledger.** Verified outbreaks trigger accelerated
-authorization for field capacity and sanitation logistics, under the ordinary issuance rules.
+authorisation for field capacity and sanitation logistics, under the ordinary issuance rules.
 
 ---
 
@@ -725,12 +758,12 @@ picking system and carries out its repairs; the cleaner who operates cleaning ro
 client companies. **Deployment measures count those roles, not construction placements alone.**
 
 **6.4 Transition is measured honestly.** Published measures include the training-to-deployment
-conversion rate, labor-force participation two years after each cohort completes, and
+conversion rate, labour-force participation two years after each cohort completes, and
 comparison against matched non-recipient cohorts. **No threshold in this Part is treated as evidence-based until such a comparison exists**, and the dividend is described as a time-limited transition wage, not a floor. **The comparison cohort and its matching variables are pre-registered before the first dividend payment in any cohort. A comparison constructed after the payments have been made reintroduces the survivor bias the test exists to remove, and does not count as evidence.**
 
 **6.5 Coverage is a condition of adoption, not a cost of it.** Adoption invites backlash in
 proportion to the number of people it ruins. A firm that automates inside a covered transition
-keeps its license to operate; one that automates outside it invites regulation, litigation and
+keeps its licence to operate; one that automates outside it invites regulation, litigation and
 sabotage.
 
 **6.6 National unemployment protection: the state holds it, AEDIS built it.**
@@ -782,20 +815,20 @@ transfer that ends. A worker who exhausts a 24-month dividend and has no unemplo
 them is in the position 0.4 forbids. Building the scheme is cheaper than paying around its absence,
 and it survives AEDIS leaving.
 
-**6.7 AEDIS is also a labor-demand engine, and that is a claim with a falsifier.** The transition
+**6.7 AEDIS is also a labour-demand engine, and that is a claim with a falsifier.** The transition
 machinery in Parts V and VI is insurance. It is written this way because insurance that turns out to
 be unused is a success, not a failure of the forecast.
 
 The forecast underneath it is a **comparison of two rates**, and it should be stated as one:
 
-- **the rate at which AEDIS creates demand** for labor — construction, operations, maintenance,
+- **the rate at which AEDIS creates demand** for labour — construction, operations, maintenance,
   inspection, training, and the manufacturing that 4.6b puts where the importing is happening;
 - **the rate at which automation removes it** in the sectors being automated.
 
 **Where the first exceeds the second, unemployment pressure falls and the transition machinery goes
 unused.** That is not a hope; it is the observable consequence of a project pipeline that needs human
 bodies on sites that do not yet exist. A jurisdiction with a verifiable gap between funded projects
-and available skilled labor experiences labor *shortage*, not surplus, and 4.6a is the clause that
+and available skilled labour experiences labour *shortage*, not surplus, and 4.6a is the clause that
 says what to do about it: bring crews in, train the local workforce, and raise the local requirement
 each renewal until the gap closes.
 
@@ -834,7 +867,7 @@ the dividend starts anyway. Where benefit and dividend overlap, one tops up the 
 support does not fall below the 11.1 subsistence baseline. **The payment is continuous; only the payer
 changes.** A missed payment is a failed audit, and the ledger operator is the named actor.
 
-**Training must point at a vacancy, not at a course catalog.** No training place is funded for an
+**Training must point at a vacancy, not at a course catalogue.** No training place is funded for an
 occupation with no verified demand — unless it is a capability gap under 4.6a with a named employer
 commitment attached. The vacancy list is published by trade and region from the same ledger as 6.7's
 falsifier, so a person choosing a course can see where the work actually is.
@@ -844,14 +877,14 @@ falsifier, so a person choosing a course can see where the work actually is.
 Three statements, and the framework needs all three together or the accounting goes wrong:
 
 **(a) Training is investment, not consumption.** It is classified productive under 3.1 because it
-augments capacity, and it is directed at a verified vacancy (6.8) rather than at a course catalog.
+augments capacity, and it is directed at a verified vacancy (6.8) rather than at a course catalogue.
 A country that trains people for work it needs is building something, and the issuance that funds it
 is not the same kind of money as a war or a subsidy to an incumbent.
 
 **(b) It produces no recoverable asset.** Human capital accrues to the worker and, over time, to the
 tax base. **The framework therefore does not book it as an asset, does not retire issuance against it,
 and cannot reclaim it.** No holder has a claim on a skill, and a promise to recoup training costs from
-a future wage would make the worker a debtor of a program meant to help them. This is the two-ledger
+a future wage would make the worker a debtor of a programme meant to help them. This is the two-ledger
 rule applied honestly: the investment is real, the return is real, and neither belongs on the balance
 sheet that cancels currency.
 
@@ -880,15 +913,15 @@ whose trade was destroyed in a few years with no transition at all.
 
 ## PART VII — GOVERNANCE, TRANSPARENCY AND ADJUDICATION
 
-**7.1 The Public Ledger.** A permissioned, federated ledger records every authorization,
+**7.1 The Public Ledger.** A permissioned, federated ledger records every authorisation,
 contract, payment, delivery, milestone verification, classification decision, approval, change
-order and audit finding, in machine-readable form. Offline-first: transactions queue locally and synchronize, so the record cannot be silenced
+order and audit finding, in machine-readable form. Offline-first: transactions queue locally and synchronise, so the record cannot be silenced
 by a connectivity blackout.
 
 **7.1a Publication protects the people in the record.** The ledger publishes expenditure,
 contracting and outcome data — not identities. **The public ledger carries disclosure-controlled aggregates only.** Person-level clinical and
 beneficiary records are held by the care purchaser and the national social-protection authority, and
-are released to an auditor only on authorization by the 7.4 body. **Pseudonymisation was the first
+are released to an auditor only on authorisation by the 7.4 body. **Pseudonymisation was the first
 draft and it is not sufficient**: Anthropic and Gemini both noted that pseudonymised person-level
 records are linkable against other data, and Gemini's framing is the right one — a k-anonymity floor
 on published cells, with suppression below a published minimum cell size, is a rule; a pseudonym is
@@ -896,9 +929,9 @@ a hope. **The k is published, and so is the query budget**: repeated queries aga
 reconstruct the individuals that a single query suppresses, so the operator publishes a budget of
 overlapping releases and refuses queries that would cross it. OpenAI's point stands as a limit rather
 than a solution: cell suppression alone cannot prevent linkage against external data, which is why
-7.1a holds aggregates and the release route for person-level data is 7.4 authorization, not
+7.1a holds aggregates and the release route for person-level data is 7.4 authorisation, not
 statistical obfuscation. Failure test: any published record permits re-identification, or a keyholder releases data
-without 7.4 authorization. OpenAI and Claude
+without 7.4 authorisation. OpenAI and Claude
 raised this independently: a registry built to expose contractors must not expose patients, and a
 health system that publishes who received care has done something worse than the corruption it was
 auditing. Failure test: any public record permits re-identification of a patient or beneficiary.
@@ -957,6 +990,23 @@ are never weaponised by the corruption of their governments.
 **7.8 Graduated enforcement.** Public disclosure → formal warning → partial suspension → full
 suspension, with published triggers and published recovery conditions.
 
+**7.8a The evidentiary pause, and what it may never touch.** Suspension is an instrument of
+enforcement, and enforcement falls on the apparatus that failed, never on the people the framework
+protects. Where a pause is triggered — two consecutive envelope breaches after the 3.6 reallocation
+is exhausted, a substitution finding that is not resolved within its deadline, or an attempt to raise
+a ceiling within six months of an inflation breach — the following applies:
+
+- **the pause suspends uncommitted Tier 3 approvals only**, and **excludes renewal certified under
+  4.5**, because a roof that is already leaking is not a new commitment;
+- **Tier 2 intake is not paused.** It remains governed solely by 3.6's subsistence mechanics and
+  6.8(d)'s continuity rule. **A reporting delay by an operator must never stop a newly displaced
+  person from being paid**, and a clause that lets it do so has inverted the framework's priorities;
+- **12.x-style triggers never touch 0.4b supplements, 6.6a backstops, or payments already in
+  course**, per 7.7;
+- **the pause names an actor, states a review deadline, and publishes the recovery condition before
+  it takes effect.** A pause with no exit is a freeze, and a stalled review must lift by default
+  rather than continue by default.
+
 ---
 
 ## PART VIII — ADOPTION
@@ -966,11 +1016,25 @@ each nation. Earlier drafts proposed a global referendum cascade with automatic 
 officials who blocked ratification; **that mechanism is withdrawn.** It is unenforceable across
 sovereign legislatures, and presenting it to a finance ministry ends the conversation.
 
-**8.2 The settlement and classification gate.** Before any commitment, each treasury and central
-bank publishes: the payment currency; the settlement mechanism and contractor access;
-exchange-loss allocation; the accounting treatment; and the lawful issuance authority.
-**Classification rulings are sought and published, including adverse ones.** An Act declaring
-SIC "non-debt" binds no statistician, court or rating agency, which classify by substance.
+**8.2 The settlement and classification gate.** Before any commitment, each treasury and central bank
+publishes: the payment currency; the settlement mechanism and contractor access; exchange-loss
+allocation; the accounting treatment; and the lawful issuance authority. **Classification rulings are
+sought and published, including adverse ones.** An Act declaring SIC "non-debt" binds no statistician,
+court or rating agency, which classify by substance.
+
+**8.2a What follows from the ruling, and what does not.** Three things the ruling settles, none of
+them negotiable after publication:
+
+- **where the ruling says the instrument is a liability, the treasury records a liability**, the
+  framework's public description is corrected to match, and 8.3 applies. **The document does not get
+  to keep calling it something else**;
+- **the audit failure is activation without a published ruling, or a ruling suppressed because it was
+  adverse.** It is not a ruling that goes against the framework. Drafting the duty the other way
+  round guarantees the adverse ruling is never published, which is the outcome the rule exists to
+  prevent;
+- **convertibility and settlement are stated before activation**: the terms on which SIC is exchanged
+  for national currency, who bears the exchange loss, and how that allocation appears under 2.6. An
+  unallocated residual is a failed audit.
 
 **8.3 Monetary financing may be prohibited, and the framework says so.** Where national or
 treaty law prohibits it, AEDIS requires legal reform or conventional funding — not a
@@ -1023,7 +1087,7 @@ purchased at independently verified value: a fair exit instead of a slow decline
 decays; contract with the framework and it is protected. That is not expropriation — it is a
 market with a new entrant that does not need to profit from scarcity.
 
-**9.4 Legacy industries may bid.** Defense and extractive firms may convert to productive work
+**9.4 Legacy industries may bid.** Defence and extractive firms may convert to productive work
 under the productive-issuance standard: deep-sea and civilian space research, geothermal
 drilling, materials and manufacturing.
 
@@ -1062,7 +1126,7 @@ pass, or a preregistered negative result that meets the methods agreed in advanc
 and verified. **"Capital clears" was the wrong verb**, and OpenAI and Gemini both caught what it
 implied: 3.5 says completion clears nothing, so a clause saying publication clears capital suggests
 publishing research extinguishes currency. It does not. A milestone is paid; the money is not
-canceled. **"Mathematically demonstrated failure" was too narrow**: most empirical research returns
+cancelled. **"Mathematically demonstrated failure" was too narrow**: most empirical research returns
 a valid null result, not a proof of impossibility, and the earlier wording would have left sound
 negative findings unpaid. That is how a funding body teaches its researchers to report only
 successes.
@@ -1090,11 +1154,38 @@ retained by each state and a published agreement on who may use the facility and
 country with no facility uses its region's; a region with none is the funding gap.
 
 **The work is methods, not a repeat survey.** National geological surveys and international
-programs already hold most of the data. The program funds what does not exist: new sensing,
-better inversion and modeling, calibration against known deposits, and coverage where none has been
+programmes already hold most of the data. The programme funds what does not exist: new sensing,
+better inversion and modelling, calibration against known deposits, and coverage where none has been
 collected. Re-surveying what is already mapped is the most expensive way to learn nothing.
 
-**10.6 The methods are public; the deposit data belongs to the state.** Everything the program
+**10.6 Pilots gate scaling, not starting.** An external reviewer proposed making three pilot
+jurisdictions, each running twenty-four months of active issuance, a precondition for any Tier 3 wave.
+Four reviewers examined it and none accepted it as drafted, for one reason stated three ways: it makes
+evaluation a precondition for beginning rather than for growing, and a framework that cannot begin
+cannot be evaluated.
+
+What survives is the principle, with the sequencing corrected:
+
+- **pilots begin after 10.4's readiness gate, not instead of it.** The first authorised jurisdiction
+  is a pilot by definition, and its evaluation is what licenses the second;
+- **selection is by lot from the 10.4 assessor pool, within a capacity class**, never by a treasury
+  nominating its own showcase. One high-capacity and one low-capacity jurisdiction must be evaluated
+  before scaling beyond the published exposure threshold in Appendix D;
+- **a no-capital pilot is required alongside the capital ones**, covering Tier 1 and Tier 2 only,
+  because the transition machinery is the part that must work when the building does not;
+- **Tier 3 pilot sign-off comes only after twelve months of post-handover operation**, when receipts
+  exist. Sign-off before receipts is a forecast wearing a certificate;
+- **evaluation thresholds are pre-registered and the evaluator is lot-drawn**, per 6.4's comparison
+  rule extended from cohorts to jurisdictions. Post-hoc construction of a comparison, or alteration
+  of a primary metric after the first payment, is a failed audit;
+- **the evaluator publishes within ninety days of the pilot's end date**, with replication code and
+  disclosure-controlled aggregates under 7.1a. **Person-level replication requires 7.4 authorisation.**
+  A late report confers no approval and no pause: it is a failure of the evaluator, recorded as such;
+- **the measured basket is the full frozen 3.6 basket, by income decile, under 11.1** — not only the
+  items the programme claims to affect. A programme that selects its own scorecard has not been
+  measured, and the items it excludes are exactly where a substitution hides.
+
+**10.6 The methods are public; the deposit data belongs to the state.** Everything the programme
 learns about *how* to find resources — instruments, processing, models, calibration, and the failures
 — is published in full. **Deposit-level findings are held by the state and released on published
 terms**, recorded on the ledger, because an uncontested public map of an unclaimed deposit is an
@@ -1104,23 +1195,23 @@ pre-empt it.
 **10.7 The least-damage standard, with a number attached.** "Least damage" is not a sentiment, and
 without a measurement it is unenforceable:
 
-- **baseline environmental measurement before authorization**, taken by an assessor the applicant
+- **baseline environmental measurement before authorisation**, taken by an assessor the applicant
   does not pay;
 - a **restoration bond sized to audited restoration cost**, released only on certified completion;
 - a **published comparison of extraction methods per tonne of output**, by land disturbance, water
   use and contamination risk;
-- **Gemini's objection was decisive**: minimizing three independent variables with no exchange rate
+- **Gemini's objection was decisive**: minimising three independent variables with no exchange rate
   between them has no unique solution, and wherever one method trades lower water use against higher
   land disturbance the rule cannot answer. So the three are combined:
   **before bids open the independent environmental assessor publishes fixed scarcity-and-toxicity
-  weights that normalize land disturbance, water use and contamination risk into a single composite
-  impact score per tonne**, and the authorization selects the specification-compliant method with the
+  weights that normalise land disturbance, water use and contamination risk into a single composite
+  impact score per tonne**, and the authorisation selects the specification-compliant method with the
   lowest composite score;
 - **no method may win on composite score while falling below the regulatory minimum on any single
   measure** — a weighted average must not be able to launder a fatal defect in one dimension;
-- the weights, the score and the rejected alternatives are published with the authorization.
+- the weights, the score and the rejected alternatives are published with the authorisation.
 
-**Falsifier:** measured disturbance per tonne rises after the program begins, or restoration bonds
+**Falsifier:** measured disturbance per tonne rises after the programme begins, or restoration bonds
 are released without certification. Either is a failed audit, published like any other.
 
 **10.8 Machinery is research, and it is a priority.** More efficient and safer extraction is a
@@ -1138,7 +1229,7 @@ Three conditions:
   replaces, on the same site class. A machine that is cheaper to buy and worse per tonne has not
   improved anything.
 
-**Falsifier:** no measurable improvement in cost or disturbance per tonne across the program's
+**Falsifier:** no measurable improvement in cost or disturbance per tonne across the programme's
 first five machinery projects.
 
 **Publication covers the design record as well as the artefact** — the problem noticed, the
@@ -1149,7 +1240,7 @@ it works.
 **10.9 What artificial intelligence cannot do here yet, and the test that would change the answer.**
 Machine systems are not currently reliable at CAD-grade engineering design: they produce plausible
 geometry, not certified assemblies, and the gap between a plausible design and a manufacturable one is
-where most of the cost lives. **The program must not assume that gap closes on any particular
+where most of the cost lives. **The programme must not assume that gap closes on any particular
 schedule.**
 
 So the clause funds the workflow rather than the hope, and states the test:
@@ -1159,7 +1250,7 @@ So the clause funds the workflow rather than the hope, and states the test:
 > who did not produce either.** The comparison is preregistered and published, pass or fail.
 
 If that test is passed, the finding is published and the workflow changes. If it is not, the
-program has still built the pipeline that would use it. **What would show this whole Section is waste:** if, across the program's first five years, designs
+programme has still built the pipeline that would use it. **What would show this whole Section is waste:** if, across the programme's first five years, designs
 produced with the corpus and the loop do not beat the baseline on cost, safety or life-cycle
 performance, then the corpus is a library nobody uses and the loop is a toy. Published. The same
 falsifier as 10.8 and 10.9, applied to the same claim: that capturing *how* people improve things is
@@ -1169,10 +1260,10 @@ worth more than buying the improvements.
 
 ## PART XI — WHAT WOULD MAKE THIS FAIL
 
-**11.1 The test of the whole program.** **Does the real cost of essentials fall faster than the
+**11.1 The test of the whole programme.** **Does the real cost of essentials fall faster than the
 currency dilutes?** If not, AEDIS has failed and 0.6 requires saying so. It is measured rather
 than asserted: an auditor drawn by lot under 10.4 publishes annually, using the frozen basket in
-3.6 and published methods applied equally to existing programs, **affordability, deprivation,
+3.6 and published methods applied equally to existing programmes, **affordability, deprivation,
 service access and inflation incidence by income decile, region and displacement status.**
 Aggregate improvement that conceals persistent deprivation in any decile is a failed audit, not
 a partial success.
@@ -1181,7 +1272,7 @@ a partial success.
 this document assumes assets remain staffed; the honest consequence is **fewer hospitals where a
 treasury cannot staff them**, and that consequence is stated here rather than discovered later.
 
-**11.3 Capitalization is partly a shadow of what it claims.** Seigniorage is not free, and the
+**11.3 Capitalisation is partly a shadow of what it claims.** Seigniorage is not free, and the
 incidence falls on cash holders, fixed-income recipients, and the poor through essentials prices.
 
 **11.4 Private capital may build, and may not own.** Earlier versions recorded this as an
@@ -1243,7 +1334,7 @@ calibration does not exist.
 claims the risk of not acting is larger, and that claim has to be measurable or it is rhetoric.
 
 **The first draft of this paragraph was circular and OpenAI and Gemini both caught it.** Pricing the
-avoided deficit at replacement cost inflates the benefit by the very input demand the program
+avoided deficit at replacement cost inflates the benefit by the very input demand the programme
 creates: the more AEDIS builds, the more expensive replacement becomes, and the more valuable its own
 absence looks.
 
@@ -1261,15 +1352,35 @@ demand, and it is the measurement to ask for instead of a forecast.
 **And one honest note on the politics.** An institution that will lose authority under this framework
 is not being unreasonable to oppose it, and describing that opposition as corruption is both wrong and
 counterproductive. The argument to make is the one in the table: which clause answers which objection,
-and what would have to be measured to settle it. A proposal that can be argued with is harder to
-dismiss than one that can only be believed.
+and what would have to be measured to settle it. A proposal that can be argued with is harder to dismiss than one that can only be believed.
+
+**11.10 The falsification list, with windows and margins fixed in advance.** The pause triggers in
+7.8a are immediate. The following are grounds for a formal redesign recommendation, assessed on
+pre-registered adjustment windows and effect margins, and every one of them must distinguish
+**insufficient evidence from demonstrated failure** — an underpowered null result establishes nothing
+and may never be cited as one:
+
+- the real cost of the covered essential basket fails to fall at least as fast as the measured
+  dilution of the currency, after controls that are **quantified and pre-registered**, not asserted
+  after the fact;
+- training-to-deployment conversion remains statistically indistinguishable from matched non-recipient
+  cohorts across two successive cohorts;
+- substitution findings recur and are repeatedly cured only by redefining the metric or its
+  denominator;
+- capture of the ledger operator, the assessor pool or the monetary-operator interface by a single
+  treasury or contractor, measured by appointment concentration or by suppression of adverse findings.
+  **Capture suspends that operator's new discretionary approvals. It is not a hard stop**, because
+  stopping payments is the capture's victory, not its remedy.
+
+A redesign recommendation proceeds as a wind-down under 11.7, with care in payment continuing
+throughout.
 
 
 ---
 
 ## APPENDIX A — DEFINITIONS
 
-- **SIC (Sovereign Infrastructure Credit):** an authorization to issue currency for verified
+- **SIC (Sovereign Infrastructure Credit):** an authorisation to issue currency for verified
   productive capacity or permanent care. **Not a debt instrument.** No maturity, no interest, no
   redemption right.
 - **Public Ledger:** the permissioned federated record described in 7.1.
@@ -1310,7 +1421,7 @@ dismiss than one that can only be believed.
   of *why* a design changed is more transferable than photographs of the result. It is withdrawn
   because it does not serve an infrastructure and monetary framework, and a document that funds
   design method in general reads as a research wish list attached to a currency proposal. The
-  one part that changes behavior at no cost is kept in 10.8: publish the rationale with the
+  one part that changes behaviour at no cost is kept in 10.8: publish the rationale with the
   artefact.
 - **Section III "Phase Zero"** — the instruction to issue capital directly to existing conglomerates
   so that extraction scaled before building. Withdrawn in full and replaced by Part IV-A: lead times
@@ -1353,8 +1464,8 @@ because a placeholder that no clause owns cannot be replaced.
 
 | Figure | Clause | What it actually controls | Producer | Replaced by |
 |---|---|---|---|---|
-| 30–50% construction exposure | 3.4, 3.5 | peak unbacked float during build | settlement operator | realized cohort disbursement schedules |
-| retirement ranges 8–12% / 5–10% / 0.4–1% | 3.12, 3.11 | how much issuance assets can retire | settlement operator | realized cancellations ÷ handover stock, by asset class, five-year out-of-sample window |
+| 30–50% construction exposure | 3.4, 3.5 | peak unbacked float during build | settlement operator | realised cohort disbursement schedules |
+| retirement ranges 8–12% / 5–10% / 0.4–1% | 3.12, 3.11 | how much issuance assets can retire | settlement operator | realised cancellations ÷ handover stock, by asset class, five-year out-of-sample window |
 | no minimum ratio | 3.11 | whether a floor is imposed at all | independent auditor (10.4) | out-of-sample evidence, asset class by asset class |
 | GDP share and spare-capacity formula | 3.7 | the size of the envelope | statistics office, audited by lot | audited input–output tables, as 3.6 already requires |
 | 24-month operating period | 4.3 | when a national budget takes over | treasury, audited | staffing-to-specification at 24 months after handover |
@@ -1384,7 +1495,7 @@ Round five found eleven collisions and seven intent failures. All are corrected:
 - **3.8** let the settlement operator certify its own extinguishment; the central bank now does.
 - **3.8(3)** held renewal balances in a zero-interest account while **3.9** promised interest on
   them. 3.9 now applies interest to operational balances only.
-- **3.8(3)** and **4.7** disagreed about unspent renewal balances being canceled or carried.
+- **3.8(3)** and **4.7** disagreed about unspent renewal balances being cancelled or carried.
 - **4.3** left revenue-bearing assets with two payers, which would block the drawdown.
 - **4.4** never defined "baseline" and would have frozen essential repairs along with everything
   else.
@@ -1445,7 +1556,7 @@ strike, for the same reason. It is withdrawn in this version.
 
 **Defended, with the reason given:**
 
-- **OpenAI — 0.4**, the standing constraint: *"compliance with program rules must not leave
+- **OpenAI — 0.4**, the standing constraint: *"compliance with programme rules must not leave
   someone without a viable means of survival."*
 - **Anthropic — 2.6**, the treasury default: *"where rule and practice diverge, someone bears the
   residual; without a named bearer it falls on money-holders unannounced."*
@@ -1483,7 +1594,7 @@ objections is more useful than one that reports unanimity.
 
 The second sign-off ran against v2.1: one question, two rounds, eight turns. DeepSeek's first turn
 was cut by the completion ceiling and produced no answer, so seven of eight turns aired. The
-transcript is included in this repository rather than summarized away.
+transcript is included in this repository rather than summarised away.
 
 It found ten things, and every one of them was integrated in v2.2:
 
@@ -1530,7 +1641,7 @@ weakest clause in the new material, and named one clause to strike and one to de
 |---|---|---|
 | An unconditional multi-year offtake is debt in substance | OpenAI, Anthropic, DeepSeek | 4.13 now tendered, signed by a named treasury, **counted against the envelope at signing**, classified under 8.2 first, and conventionally funded where it exceeds a future envelope |
 | The input-price rule had no formula | Gemini; adopted by Anthropic | 4.15 now multiplies the next envelope by 1 − (ΔI − ΔB) |
-| Minimizing three variables has no unique solution | Gemini; floor by Anthropic | 10.7 publishes fixed weights into one composite score per tonne, with a per-measure regulatory floor |
+| Minimising three variables has no unique solution | Gemini; floor by Anthropic | 10.7 publishes fixed weights into one composite score per tonne, with a per-measure regulatory floor |
 | Paying before a training place exists collides with 3.2 | OpenAI, Anthropic, Gemini | 3.2 now authorises interim payment for up to 60 days pending a start |
 | Replacement-cost pricing is circular | OpenAI, Gemini | 11.9 compares service benefits against real resource costs, without counting replacement as benefit |
 | A physical inventory transfer must not raise a currency ceiling | Anthropic, Gemini | 4.21's envelope credit removed; replaced by a physical first claim on the pool |
@@ -1544,14 +1655,14 @@ weakest clause in the new material, and named one clause to strike and one to de
 
 - **11.9's comparative provision** (OpenAI) and **4.21's fourth bullet** (Anthropic, Gemini) — both
   struck, both rewritten in v3.0 as above.
-- **4.6, the 80% local-labor preference** (DeepSeek, for the second time) — not adopted. Anthropic
+- **4.6, the 80% local-labour preference** (DeepSeek, for the second time) — not adopted. Anthropic
   keeps 4.6 because the auditor's value-added ruling already voids the preference where it fails its
   own test. DeepSeek's dissent stands on the record.
 
 **Defended, and by whom:**
 
 - **0.4, the standing constraint** — OpenAI: *"a displaced person must never lose subsistence because
-  of program compliance."*
+  of programme compliance."*
 - **2.6, the treasury default** — Anthropic, against DeepSeek's reservation: *"every fix proposed in
   this room creates a residual. 2.6 is the only clause that says who holds it."*
 - **3.7, cancellation capacity** — Gemini and DeepSeek: *"it converts the ceiling from a political
@@ -1565,3 +1676,55 @@ body the document does not create), **6.4** (transition thresholds remain placeh
 **One correction about the earlier table.** Appendix G recorded a sign-off conducted on v1.1 while the
 document had moved to v1.3 — several of its objections had already been answered. This table has no
 such defect: it is the review of the text it names.
+
+## APPENDIX J — THE EXTERNAL REVIEW OF THE PROPOSED PART XII
+
+An external reviewer, Grok, proposed a Pilot, Evaluation and Falsification Charter as a new Part XII.
+Its full text is in the repository. The panel was asked to rule on each clause: ACCEPT, AMEND or
+REJECT. **None of it was adopted as proposed.** This appendix records what happened to each clause,
+because the reasoning is more useful than the outcome.
+
+| Draft clause | OpenAI | Anthropic | Gemini | DeepSeek | Where the substance went |
+|---|---|---|---|---|---|
+| 12.1 Purpose — nothing scales until standards met | AMEND | AMEND | AMEND | ACCEPT | 10.6, with **0.4b supplements, 6.6a backstops and 4.5-certified renewal exempt** |
+| 12.2 Three pilot jurisdictions, 24 months each | AMEND | AMEND | AMEND | **REJECT** | 10.6 — **pilots gate scaling, not starting** |
+| 12.3 Pre-registration, lot-drawn evaluator | ACCEPT | ACCEPT | ACCEPT | ACCEPT | 10.6, merged with 6.4 |
+| 12.4 Required primary metrics | AMEND | AMEND | AMEND | ACCEPT | 10.6 — **the full frozen 3.6 basket by decile**, not the programme's own items |
+| 12.5 Independent evaluation, full data and code | AMEND | AMEND | AMEND | ACCEPT | 10.6 + 7.1a — code and **aggregates**, person-level only under 7.4 |
+| 12.6 Mechanical real-intensity test | AMEND | AMEND | AMEND | ACCEPT | **1.4 and new 3.7a — the most valuable item in the draft** |
+| 12.7 Automatic pause triggers | AMEND | **REJECT** | **REJECT** | **REJECT** | 7.8a — the clause all four called most damaging |
+| 12.8 Legal and statistical classification | REJECT | REJECT | REJECT | ACCEPT | 8.2 and new 8.2a |
+| 12.9 Falsification criteria | AMEND | AMEND | AMEND | ACCEPT | new 11.10 |
+| 12.10 Relationship to existing Parts | AMEND | AMEND | AMEND | ACCEPT | 7.8a and 11.10 |
+
+**12.7 was named as the most damaging clause by all four reviewers, unanimously.** It suspended new
+Tier 2 intakes on triggers including a late publication — an administrative failure by an operator,
+punished by withholding transition income from a newly displaced person. 0.4 forbids that outcome, 7.7
+confines penalties to the apparatus, and 3.6 gives the central bank alone the authority a pause was
+bypassing. **It was rejected, and the surviving version pauses only uncommitted Tier 3 approvals.**
+
+**The most valuable item was 12.6, and it was amended rather than accepted.** The draft froze one
+real-intensity metric per function. Three reviewers found the same hole: the definition is frozen but
+the *choice* is not, and a treasury that picks its own metric has not been measured. It now requires a
+lot-drawn auditor to hold **two** frozen metrics — one volume, one access — with need adjustment, a
+sixty-day substitution finding rather than a suspension, and a historical-bridge rule for statistical
+revisions. The draft's other half, freezing the 3.7 denominator, was adopted as 3.7a.
+
+**12.8 was sent into 8.2 by three of four, and the reason is the sharpest thing in the review.** The
+draft made an adverse classification ruling a failed audit. Anthropic named the trap: *a rule under
+which an adverse ruling fails the audit is a rule that guarantees the adverse ruling is never
+published.* The duty was reversed — the failure is **activation without a published ruling**, or a
+ruling suppressed for being adverse. The draft's convertibility requirement was kept as 8.2a.
+
+**Two reviewers added a pilot the draft had missed.** Anthropic, Gemini and OpenAI all required a
+**no-capital Tier 1 and Tier 2 pilot**, because the transition machinery is the part that has to work
+when the building does not.
+
+**DeepSeek accepted eight of ten and rejected the two that matter**, on the ground that *"pilots begin
+with first authorisation; evaluation gates scaling, not start."* That sentence is the clearest
+statement in the round of why 12.2 as drafted would have stalled the framework.
+
+**What this round shows about the document.** An outside reviewer produced eleven hundred lines of
+careful procedure, and the panel's productive contribution was not to add to it but to ask who the
+procedure punishes. Every clause that survived was rewritten to point at the apparatus rather than the
+beneficiary — which is the same correction the panel made to 0.4a, to 6.6, and to 9.6 before it.

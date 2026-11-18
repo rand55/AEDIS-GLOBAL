@@ -56,6 +56,13 @@ Three sign-offs are recorded verbatim in the document — **Appendix G, H and I*
 its dissent rather than averaging it away. The final sign-off cost $2.35 and returned eight of eight
 turns.
 
+**Appendix J is a fourth kind of review.** An external model, Grok, submitted a proposed new Part XII —
+a pilot and falsification charter — of about 1,100 lines. The panel was asked to rule on it clause by
+clause. **None of it was adopted as drafted.** Its best idea, a mechanical test for spending relabelled
+to hide a shrinking service, survived as 1.4 and 3.7a after being amended; its worst, an automatic
+pause that would have stopped transition payments over a late report, was rejected by all four as
+incompatible with 0.4. The mapping from each clause to its verdict is in Appendix J.
+
 ### What that process actually caught
 
 The reviews found defects the author had not seen, including several in clauses the author had written
@@ -131,7 +138,7 @@ is which.
 
 ## Reading order
 
-The document is 16,800 words across 13 Parts and nine Appendices. It is not meant to be read front to
+The document is 18,800 words across 13 Parts and ten Appendices. It is not meant to be read front to
 back by everyone.
 
 | If you have | Read |
@@ -143,7 +150,7 @@ back by everyone.
 
 Appendices: **A** definitions · **B** worked arithmetic · **C** every correction found by audit ·
 **D** the placeholder register · **E** version history · **F** reproducibility · **G–I** the three
-sign-offs.
+sign-offs · **J** the external review
 
 ---
 
@@ -163,7 +170,7 @@ is authoritative.
 
 | File | What it is |
 |---|---|
-| `AEDIS-PROPOSAL.md` | The proposal, v3.2 — 16,800 words, 13 Parts, nine Appendices |
+| `AEDIS-PROPOSAL.md` | The proposal, v3.3 — 18,822 words, 13 Parts, ten Appendices |
 | `SIGN-OFF-TRANSCRIPT.txt` | The final sign-off, verbatim — four models, two rounds, eight turns |
 | `explain-01…07.svg` | Seven diagrams: how money works today, how AEDIS fits alongside, the gap a bank cannot fill, the two funding routes, what issuance is released against, and the boundary with banks. Plain SVG, opens in any browser |
 | `LICENSE` | CC BY 4.0 |
